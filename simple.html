@@ -7,6 +7,18 @@
     <title>Simple Calculator</title>
 </head>
 <body>
+        <label for="firstValue">Premier chiffre</label>
+        <input type="text" name="firstValue" id="firstValue">
+        <label for="secondValue">Second chiffre</label>
+        <input type="text" name="secondValue" id="secondValue">
+        <select name="operator" id="operator">
+            <option value="+">Addition</option>
+            <option value="-">Soustraction</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
+        </select>
+        <button id="calculer">Calculer</button>
+    <div id="result"></div>
     <script src="script.js"></script>
 </body>
 </html>
